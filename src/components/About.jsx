@@ -50,7 +50,7 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src="https://res.cloudinary.com/dcrk1fzah/image/upload/v1756983308/Untitled_design_cr0co9.png"
+                  src="https://res.cloudinary.com/dcrk1fzah/image/upload/v1757166210/fff_aiwdvx.webp"
                   alt="Harinder Kumar - About"
                   className="w-full h-full object-cover"
                   onError={(e) => {
