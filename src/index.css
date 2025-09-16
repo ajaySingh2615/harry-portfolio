@@ -199,3 +199,37 @@ html {
 .skill-chip-idle {
   @apply bg-white text-red-700 border-red-200 hover:bg-red-50;
 }
+
+/* testimonial progress bar */
+@keyframes tbar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.testi-progress {
+  animation: tbar 5s linear forwards;
+}
+.testi-progress.paused {
+  animation-play-state: paused;
+}
+
+/* subtle horizontal fade for avatar rail */
+.mask-fade-x {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
