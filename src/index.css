@@ -233,3 +233,27 @@ html {
     transparent
   );
 }
+
+/* === Floating labels (compatible, no Tailwind variants needed) === */
+.float-field {
+  position: relative;
+}
+.float-field label {
+  position: absolute;
+  left: 1rem;
+  top: 0.85rem;
+  padding: 0 0.25rem; /* mask the border under the label */
+  background: #fff; /* keep label readable on white fields */
+  color: #6b7280; /* gray-500 */
+  transition: all 0.18s ease;
+  pointer-events: none;
+}
+
+/* Float when focused OR when value exists */
+.float-field input:focus + label,
+.float-field textarea:focus + label,
+.float-field input:not(:placeholder-shown) + label,
+.float-field textarea:not(:placeholder-shown) + label {
+  transform: translateY(-1.05rem) scale(0.85);
+  color: #b91c1c; /* red-700-ish */
+}
