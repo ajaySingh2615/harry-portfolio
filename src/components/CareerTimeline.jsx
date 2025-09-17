@@ -42,9 +42,21 @@ const CareerTimeline = ({ items = [] }) => {
                   className={`bg-gradient-to-br from-red-100/50 via-white to-red-50 p-[1px] rounded-2xl inline-block`}
                 >
                   <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-shadow duration-300">
-                    <h4 className="text-lg font-semibold text-gray-900">
-                      {item.company}
-                    </h4>
+                    <div className="flex items-center gap-3">
+                      {item.logo ? (
+                        <img
+                          src={item.logo}
+                          alt={item.company}
+                          className="h-8 w-8 rounded-lg object-cover border border-gray-200"
+                          onError={(e) => {
+                            e.currentTarget.style.display = "none";
+                          }}
+                        />
+                      ) : null}
+                      <h4 className="text-lg font-semibold text-gray-900">
+                        {item.company}
+                      </h4>
+                    </div>
                     <p className="text-red-600 font-medium mt-1">
                       {item.position}
                     </p>
