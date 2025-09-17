@@ -65,7 +65,7 @@ const Footer = () => {
               </p>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6">
-              7+ years of experience in building agencies, managing creators,
+              10+ years of experience in building agencies, managing creators,
               and driving growth in live-streaming and influencer platforms.
               Let's grow together.
             </p>

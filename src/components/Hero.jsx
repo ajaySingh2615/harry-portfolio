@@ -68,7 +68,7 @@ const Hero = () => {
 
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mb-8">
               I help brands & creators grow through live-streaming operations,
-              influencer marketing, and partnerships. 7+ years building
+              influencer marketing, and partnerships. 10+ years building
               agencies, onboarding talent, and driving measurable impact.
             </p>
 
