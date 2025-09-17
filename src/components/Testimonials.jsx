@@ -8,39 +8,35 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Team Leader",
-      company: "Live App",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+      name: "Ravish Jain",
+      company: "Director, Sortout Innovation",
+      image: "/people-logo/Ravish%20Jain.jpg",
       quote:
-        "Harry scaled our agency base and delivered high-impact events – consistent results every time. His strategic approach to business development is exceptional.",
+        "Harry helped us set up a robust acquisition engine and scale creator operations fast. The structure, discipline, and outcomes speak for themselves.",
       rating: 5,
     },
     {
-      name: "Agency Owner",
-      company: "Digital Creators Hub",
-      image:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
+      name: "Mahesh Jakhotia",
+      company: "Business Leader",
+      image: "/people-logo/Mahesh-Jakhotia.jpg",
       quote:
-        "A true business growth partner – professional, reliable, and innovative. Harry helped us achieve 40% revenue growth in just 6 months.",
+        "Clear strategy, strong execution, and consistent growth. Harry’s BD playbooks and event frameworks drove measurable revenue impact in months.",
       rating: 5,
     },
     {
-      name: "Platform Manager",
-      company: "StreamTech Solutions",
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+      name: "Pragya Mishra",
+      company: "Agency Owner",
+      image: "/people-logo/Pragya-Mishra.jpg",
       quote:
-        "Outstanding talent management skills. Harry brought structure to our creator program and significantly improved retention rates.",
+        "From onboarding to retention, his guidance elevated our creator program. We saw higher engagement and better compliance across the board.",
       rating: 5,
     },
     {
-      name: "Business Director",
-      company: "Influencer Network",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+      name: "Manish Kumar",
+      company: "Ops & Partnerships",
+      image: "/people-logo/manish.jpg",
       quote:
-        "Harry's expertise in event management and creator partnerships is unmatched. He consistently delivers results that exceed expectations.",
+        "Reliable partner for high‑stakes campaigns. Harry’s partnerships and PK events consistently delivered visibility and ROI for our brand.",
       rating: 5,
     },
   ];
