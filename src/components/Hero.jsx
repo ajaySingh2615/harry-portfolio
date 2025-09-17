@@ -21,9 +21,9 @@ const Hero = () => {
   };
 
   const stats = [
-    { k: "7+", v: "Years Experience" },
-    { k: "80+", v: "Agencies Onboarded" },
-    { k: "1200+", v: "Creators Managed" },
+    { k: "10+", v: "Years Experience" },
+    { k: "700+", v: "Agencies Onboarded" },
+    { k: "1500+", v: "Creators Managed" },
     { k: "150+", v: "PR/PK Events" },
   ];
 
