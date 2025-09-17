@@ -185,7 +185,7 @@ const About = () => {
             {/* Quick stats & CTAs */}
             <div className="grid grid-cols-2 gap-4 pt-2">
               <div className="bg-red-50 p-4 rounded-xl">
-                <div className="text-2xl font-bold text-red-600">7+</div>
+                <div className="text-2xl font-bold text-red-600">10+</div>
                 <div className="text-sm text-gray-600">Years in Industry</div>
               </div>
               <div className="bg-red-50 p-4 rounded-xl">
