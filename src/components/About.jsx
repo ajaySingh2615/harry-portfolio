@@ -169,9 +169,9 @@ const About = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a
-                href="/Harinder_Kumar_CV.pdf"
+                href="/resume/Mr.%20Harry.pdf"
                 className="btn-secondary text-center"
-                download
+                download="Mr. Harry.pdf"
               >
                 Download CV
               </a>
