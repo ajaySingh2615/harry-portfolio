@@ -171,9 +171,10 @@ const About = () => {
               <a
                 href="/resume/Mr.%20Harry.pdf"
                 className="btn-secondary text-center"
-                download="Mr. Harry.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Download CV
+                View CV
               </a>
               <button onClick={openWhatsApp} className="btn-primary">
                 Let’s Connect
