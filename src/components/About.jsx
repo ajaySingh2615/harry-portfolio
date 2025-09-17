@@ -14,25 +14,46 @@ const About = () => {
 
   const timeline = [
     {
-      year: "2017–2019",
-      company: "Bigo Live (Asia Innovations Group)",
+      year: "Jan 2020 – Present",
+      company: "Sortout Innovation",
+      position: "Business Development Manager • Director",
+      description:
+        "Founded Sortout Innovation in 2020; scaling toward ₹10 Cr ARR. Lead HR & recruitment solutions for corporates, ROI-driven digital marketing, and tech delivery across web/SaaS/e‑commerce (PHP, Spring Boot, React). Drive influencer partnerships, client relations, project delivery, and global expansion.",
+    },
+    {
+      year: "Dec 2018 – Aug 2020",
+      company: "Sonacon Entertainment Pvt. Ltd.",
+      position: "Co‑Founder",
+      description:
+        "Scaled revenue from ₹0 to ₹80 Cr/yr in ~2 years. Built BD strategy in entertainment & live-streaming, hired/onboarded agencies & creators, ran influencer campaigns and talent ops, organised PK events & live shows, and expanded market presence & monetisation.",
+    },
+    {
+      year: "Jan 2018 – Dec 2019",
+      company: "Asia Innovations Group",
       position: "Business Development Manager",
       description:
-        "Led strategic partnerships and business growth initiatives in the live-streaming industry.",
+        "Handled 1200+ agencies; achieved $2M USD in a single month. Led agency hiring & management, creator growth, retention & monetisation strategies, partnerships, PK events, and influencer campaigns to strengthen BIGO LIVE’s presence.",
     },
     {
-      year: "2019–2021",
-      company: "OyeTalk",
-      position: "Talent Manager & Specialist",
+      year: "Jan 2017 – Dec 2018",
+      company: "BIGO LIVE",
+      position: "Business Development Manager",
       description:
-        "Managed talent acquisition and retention strategies, growing creator base significantly.",
+        "Onboarded 100+ agencies; peak monthly achievement of $50K USD. Built partnerships, supported creator performance & retention, and managed PK events to maximise visibility and earnings.",
     },
     {
-      year: "2021–Present",
-      company: "Mika Live",
-      position: "Talent Manager & Specialist",
+      year: "Jan 2016 – Dec 2017",
+      company: "Flipkart",
+      position: "Area Manager (Online Shopping)",
       description:
-        "Driving talent management excellence and strategic business development.",
+        "Oversaw daily operations across delivery hubs & warehouses; led teams for timely, accurate fulfilment. Improved logistics & last‑mile efficiency, coordinated cross‑functionally, and met performance & compliance targets.",
+    },
+    {
+      year: "Jan 2014 – Dec 2016",
+      company: "BMA Wealth Creators Ltd",
+      position: "Branch Manager (Stock Market)",
+      description:
+        "Managed branch operations & client services; led financial advisors & sales teams; drove revenue via trading & investment solutions; expanded client base while ensuring SEBI/regulatory compliance and strong customer relationships.",
     },
   ];
 
