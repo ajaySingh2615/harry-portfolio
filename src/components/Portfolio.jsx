@@ -223,9 +223,9 @@ const Portfolio = () => {
             </div>
             <div className="grid md:grid-cols-4 gap-6">
               {[
-                { k: "7+", v: "Years Experience" },
-                { k: "80+", v: "Agencies Onboarded" },
-                { k: "1200+", v: "Creators Managed" },
+                { k: "10+", v: "Years Experience" },
+                { k: "700+", v: "Agencies Onboarded" },
+                { k: "15000+", v: "Creators Managed" },
                 { k: "150+", v: "Events Executed" },
               ].map((x) => (
                 <div key={x.v} className="text-center">
